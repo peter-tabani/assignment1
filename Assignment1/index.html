@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar View</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <section class="header">
+    <nav>
+        <a href="index.html"><img src=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="feature.html">FEATURES</a></li>
+                <li><a href="pricing.html">PRICING</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="signing.html">SIGN UP</a></li>
+                <li><a href="product.html">PRODUCTS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="nav-line"></div>
+    <div class="text-box">
+        <h1>Scheduling made easy </h1>
+        <p>Calendar View is your scheduling automation platform for eliminating the back-and-forth<br> emails to find the perfect time — and so much more.
+        </p>
+        <a href="" class="hero-btn">Learn more</a>
+    </div>
+  </section>
+
+  <!-- JavaScript to toggle menu -->
+  <script>
+    function showMenu() {
+      var navLinks = document.getElementById("navLinks");
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      var navLinks = document.getElementById("navLinks");
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
