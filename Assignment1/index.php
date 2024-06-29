@@ -53,7 +53,7 @@ if(isset($_POST["submit"])){
                 <input type="email" id="signup-email" name="email" required>
                
                 <label for="signup-password">Password:</label>
-                <input type="password" id="signup-password" name="password" required>
+                <input type="password" id="signup-password" name="pwd" required>
                
                 <input type="submit" value="Create Account">
             </form>
