@@ -45,7 +45,7 @@ if(isset($_POST["submit"])){
   <section id="login-container">
         <section id="signup">
             <h2>Sign Up</h2>
-            <form action="/signup" method="post">
+            <form action="/formhandler.inc.php" method="post">
                 <label for="signup-username">Username:</label>
                 <input type="text" id="signup-username" name="username" required>
                
@@ -65,12 +65,12 @@ if(isset($_POST["submit"])){
         <!-- Login Section -->
         <section id="login" style="display:none;">
             <h2>Login</h2>
-            <form action="/login" method="post">
+            <form action="/formhandler.inc.php" method="post">
                 <label for="login-username">Username:</label>
                 <input type="text" id="login-username" name="username" required>
                
                 <label for="login-password">Password:</label>
-                <input type="password" id="login-password" name="password" required>
+                <input type="password" id="login-password" name="pwd" required>
                
                 <input type="submit" value="Log In">
             </form>
