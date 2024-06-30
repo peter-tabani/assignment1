@@ -1,26 +1,22 @@
 <?php
 require 'connection.php';
 
-if(isset($_POST["submit"])){
-  $name = $_POST["name"];
-  $age = $_POST["age"];
-  $country = $_POST["country"];
-  $gender = $_POST["gender"];
+if (isset($_POST["submit"])) {
+    $username = $_POST["username"];
+    $email = $_POST["email"];
+    $pwd = $_POST["pwd"];
 
-  $languages = $_POST["languages"];
-  $language = "";
-  foreach($languages as $row){
-    $language .= $row . ",";
-  }
+    // Sanitize and validate input (not shown here for brevity)
 
-  $query = "INSERT INTO tb_data VALUES('', '$name', '$age', '$country', '$gender', '$language')";
-  mysqli_query($conn,$query);
-  echo
-  "
-  <script> alert('Data Inserted Successfully'); </script>
-  ";
+    $query = "INSERT INTO user VALUES('$username', '$email', '$pwd')";
+    mysqli_query($conn, $query);
+
+    echo "
+    <script> alert('Data Inserted Successfully'); </script>
+    ";
 }
 ?>
+
  <!DOCTYPE html>
 <html lang="en">
 <head>
