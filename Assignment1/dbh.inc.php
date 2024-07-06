@@ -1,8 +1,7 @@
 <?php
-$dsn = "mysqli:host=localhost;dbname=company";
+$dsn = "mysql:host=localhost;dbname=company"; // Corrected the DSN
 $dbusername = "root";
 $dbpassword = "";
-
 
 try {
     $pdo = new PDO($dsn, $dbusername, $dbpassword);

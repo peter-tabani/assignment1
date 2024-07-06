@@ -1,21 +1,3 @@
-<?php
-require 'connection.php';
-
-if (isset($_POST["submit"])) {
-    $username = $_POST["username"];
-    $email = $_POST["email"];
-    $pwd = $_POST["pwd"];
-
-    // Sanitize and validate input (not shown here for brevity)
-
-    $query = "INSERT INTO user VALUES('$username', '$email', '$pwd')";
-    mysqli_query($conn, $query);
-
-    echo "
-    <script> alert('Data Inserted Successfully'); </script>
-    ";
-}
-?>
 
  <!DOCTYPE html>
 <html lang="en">
@@ -120,6 +102,8 @@ if (isset($_POST["submit"])) {
   <h1>The Importance of Scheduling and Planning</h1>
   <p>In our fast-paced world, scheduling and planning have become essential skills for success. Here are three key reasons why:</p>
 </section>
+
+
 
 <!-- Paragraphs Section -->
 <section class="paragraphs">

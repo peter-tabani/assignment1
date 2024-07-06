@@ -1,35 +1,42 @@
 <?php
-if($_SERVER["REQUEST_METHOD"] =="POST"){
-   $username = $_POST["username"];
-   $pwd = $_POST["pwd"];
-   $email = $_POST["email"];
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Sanitize and validate inputs
+    $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_STRING);
+    $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
+    $pwd = $_POST["pwd"]; // password will be hashed later
 
-   try {
-       require_once "dbh.inc.php";
+    // Validate email
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        die("Invalid email format");
+    }
 
-       $query = "INSERT INTO user (username ,pwd ,email ) VALUES
-       (:username, :pwd, :email);";
+    try {
+        require_once "dbh.inc.php";
 
-       $stmt = $pdo->prepare($query);
-       
-       $stmt->bindParam(":username", $username);
-       $stmt->bindParam(":pwd", $pwd);
-       $stmt->bindParam(":email", $email);
+        // Hash the password
+        $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
 
-       $stmt-> execute();
+        $query = "INSERT INTO user (username, pwd, email) VALUES (:username, :pwd, :email)";
+        $stmt = $pdo->prepare($query);
 
-       $pdo =null;
-       $stmt =null;
+        $stmt->bindParam(":username", $username);
+        $stmt->bindParam(":pwd", $hashedPwd);
+        $stmt->bindParam(":email", $email);
 
-       header("Location: ../index.php");
-       die();
+        $stmt->execute();
 
+        // Close connection
+        $pdo = null;
+        $stmt = null;
 
-   } catch (PDOException $e) {
-    die("Query failed: " . $e->getMessage());
-
-   }
-}else {
+        header("Location: ../index.php");
+        die();
+    } catch (PDOException $e) {
+        die("Query failed: " . $e->getMessage());
+    }
+} else {
     header("Location: ../index.php");
-
+    die();
 }
+
+
