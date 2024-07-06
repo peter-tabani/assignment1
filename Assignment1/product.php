@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+<?php include('navbar.php'); ?>
+
     <!-- Introduction Section -->
     <section class="introduction">
         <h1>The Importance of Scheduling and Planning</h1>
@@ -32,6 +35,8 @@
             </div>
         </div>
     </section>
+
+    <?php include 'footer.php'; ?>
 
     <!-- JavaScript or other scripts can be added here -->
 </body>

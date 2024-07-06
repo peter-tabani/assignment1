@@ -23,7 +23,7 @@
   <section id="login-container">
         <section id="signup">
             <h2>Sign Up</h2>
-            <form action="/formhandler.inc.php" method="post">
+            <form action="welcome.php" method="post">
                 <label for="signup-username">Username:</label>
                 <input type="text" id="signup-username" name="username" required>
                
@@ -186,24 +186,8 @@
         </div>
     </div>
 </section>
-  <section class="footer">
-    <h4>About us</h4>
-    <p>
-        At our calendar and scheduling platform, we're passionate about simplifying your life.
-        Our mission is to empower individuals, businesses, and teams to manage their time efficiently.
-        Whether you're coordinating meetings, planning events, or organizing your personal schedule, we've got you covered.
-    </p>
-    <div class="icons">
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-linkedin"></i>
-    </div>
-    <p>Founded by Jesse <i class="fa fa-heart-o"></i> Created by Frank</p>
-    <div class="container">
-        <p>&copy; 2024 Jesse. All rights reserved.</p>
-    </div>
-</section>
+  
+<?php include 'footer.php'; ?>
 
   <!-- JavaScript to toggle menu -->
   <script>

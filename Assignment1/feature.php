@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+<?php include('navbar.php'); ?>
+
     <!-- Features Section -->
     <section class="features">
         <h1>Special Calendar View Features.</h1>
@@ -26,9 +29,10 @@
             </div>
         </div>
     </section>
+    
+    <?php include 'footer.php'; ?>
 
-    <!-- JavaScript or other scripts can be added here -->
-   <!-- Place this at the bottom of each HTML file just before the closing </body> tag -->
+    
 <script>
     // Fetch and insert the navbar
     fetch('navbar.html')

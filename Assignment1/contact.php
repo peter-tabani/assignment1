@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
+
+<?php include('navbar.php'); ?>
+
     <!-- Testimonials Section -->
     <section class="testimonials">
         <h1>Our Users</h1>
@@ -48,6 +51,8 @@
             </div>
         </div>
     </section>
+
+    <?php include 'footer.php'; ?>
 
     <!-- JavaScript or other scripts can be added here -->
 </body>

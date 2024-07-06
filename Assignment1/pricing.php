@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+<?php include('navbar.php'); ?>
+
     <!-- Features2 Section -->
     <section class="features2">
         <h1>Drive More Revenue</h1>
@@ -30,6 +33,8 @@
             </div>
         </div>
     </section>
+
+    <?php include 'footer.php'; ?>
 
     <!-- JavaScript or other scripts can be added here -->
 </body>

@@ -42,6 +42,8 @@
             </form>
         </section>
     </section>
+
+    <?php include 'footer.php'; ?>
    
     <!-- JavaScript for toggling sections -->
     <script>

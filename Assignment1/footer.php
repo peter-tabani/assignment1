@@ -22,9 +22,9 @@
             <i class="fab fa-instagram"></i>
             <i class="fab fa-linkedin"></i>
         </div>
-        <p>Founded by Jesse <i class="fa fa-heart-o"></i> Created by Frank</p>
+        <p>Founded by Peter Frank <i class="fa fa-heart-o"></i></p>
         <div class="container">
-            <p>&copy; 2024 Jesse. All rights reserved.</p>
+            <p>&copy; 2024 Strathmore. All rights reserved.</p>
         </div>
     </section>
 
