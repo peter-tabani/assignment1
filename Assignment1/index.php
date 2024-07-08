@@ -10,7 +10,9 @@
 </head>
 <body>
   <section class="header">
+
   <?php include('navbar.php'); ?>
+
 <div class="nav-line"></div>
     <div class="text-box">
         <h1>Scheduling made easy </h1>
@@ -169,12 +171,12 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
-            </div> <!-- Added forward slash to close div -->
+            </div> 
         </div>
 
         <div class="testimonials-col">
             <img src="images/user2.jpg">
-            <div> <!-- Added forward slash to close div -->
+            <div> 
                 <p>As a busy professional, I rely on this scheduling website to keep my life in order.
                 The customizable event templates, real-time availability checks, and automatic calendar sync have simplified my work and personal commitments.
                 Plus, the responsive support team ensures a smooth experience. Thumbs up!
@@ -185,7 +187,7 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-half"></i>
-            </div> <!-- Added forward slash to close div -->
+            </div> 
         </div>
     </div>
 </section>
