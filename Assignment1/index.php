@@ -1,5 +1,5 @@
 
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -97,6 +97,9 @@
         </div>
     </div>
 </section>
+
+
+
  <!-- Introduction Section -->
  <section class="introduction">
   <h1>The Importance of Scheduling and Planning</h1>

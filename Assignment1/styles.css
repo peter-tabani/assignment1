@@ -27,6 +27,7 @@ nav img{
 .nav-links{
     flex: 1;
     text-align: right;
+    color: #253943;
 }
 .nav-links ul li{
     list-style: none;
@@ -35,7 +36,7 @@ nav img{
     position: relative;
 }
 .nav-links ul li a{
-    color: #fff;
+    color: #5e9268;
     text-decoration: none;
     font-size: 13px;
 }
@@ -92,7 +93,7 @@ nav img{
 }
 .hero-btn:hover{
     border: 1px solid #ffffff;
-    background: #1d797e;
+    background: #000000;
     transition: 1s;
 }
 @media(max-width: 700px){
@@ -124,7 +125,7 @@ nav img{
 }
 nav.fa{
     display: block;
-    color: white;
+    color: rgb(90, 92, 66);
     margin: 10px;
     font-size: 22px;
     cursor: pointer;
