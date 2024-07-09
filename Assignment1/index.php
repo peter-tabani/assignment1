@@ -160,14 +160,14 @@ if (isset($_POST['sub'])) {
       </div>
   </div>
 </section>
+<!---DRIVE MORE REVENUE-->
 <section class="features2">
   <h1>Drive More Revenue</h1>
   <p>Elevate your revenue streams by effortlessly booking high-value meetings in mere seconds, transforming the scheduling process into a strategic advantage.</p>
 
   <div class="row">
-      <div class="course-col2">
-          <img src="images/setup.png">
-          <div class="blog-right">
+  <div class="course-col2">   
+      <div class="blog-right">  
               <h3>Accelerate Your Sales Cycle</h3>
               <p>Maintain unwavering momentum in your sales journey by eliminating scheduling hurdles at every turn. With streamlined processes, you can keep your focus on nurturing relationships and closing deals.</p>
           </div>
