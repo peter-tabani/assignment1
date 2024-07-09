@@ -533,7 +533,7 @@ border-radius: 10px;
   
   #toggleLink {
     position: absolute;
-    bottom: 5px; /* Adjust this value as needed */
+    bottom: 5px; 
     left: 50%;
     transform: translateX(-50%);
   }
