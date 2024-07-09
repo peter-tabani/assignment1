@@ -31,7 +31,7 @@
 
             <div class="paragraph-col">
                 <h3>Improved Organization</h3>
-                <p>Organized individuals tend to be more successful in both their personal and professional lives. Scheduling and planning help individuals stay organized by keeping track of appointments, deadlines, and commitments. This leads to reduced chaos, increased efficiency, and better decision-making.</p>
+                <p>Organized individual tend to be more successful in both their personal and professional lives. Scheduling and planning help individuals stay organized by keeping track of appointments, deadlines, and commitments. This leads to reduced chaos, increased efficiency, and better decision-making.</p>
             </div>
         </div>
     </section>

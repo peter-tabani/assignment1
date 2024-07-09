@@ -117,7 +117,7 @@ if (isset($_POST['sub'])) {
     <!--<p>Lorem ipsum dolor sit amet, conscetuor adispicing elit</p>-->
     <div class="row">
         <div class="course-col">
-            <h3>Tasks Management</h3>
+            <h3>Task Management</h3>
             <p>With Calendar View, you can effortlessly create, organize, and prioritize tasks in one centralized location.</p>
         </div>
         <div class="course-col">
@@ -125,7 +125,7 @@ if (isset($_POST['sub'])) {
             <p>Your feedback is invaluable to us. That's why Calendar View includes a built-in feedback feature and rating system. Share your thoughts, suggestions, and ideas directly with our team to help us improve the platform and tailor it to your needs.</p>
         </div>
         <div class="course-col">
-            <h3>Notifications</h3>
+            <h3>Notification</h3>
             <p>Never miss a deadline or appointment again with Calendar View's customizable notifications and reminders. Receive timely alerts for upcoming tasks, events, and important milestones, keeping you informed and on track.</p>
         </div>
     </div>

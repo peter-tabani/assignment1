@@ -39,7 +39,7 @@
                 <div> <!-- Added forward slash to close div -->
                     <p>As a busy professional, I rely on this scheduling website to keep my life in order.
                     The customizable event templates, real-time availability checks, and automatic calendar sync have simplified my work and personal commitments.
-                    Plus, the responsive support team ensures a smooth experience. Thumbs up!
+                    Plus, the responsive support team ensures a smooth experience. 
                     </p>
                     <h3>Emmanuel Douglas</h3>
                     <i class="fa fa-star"></i>

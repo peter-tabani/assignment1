@@ -14,7 +14,7 @@
         <p>
             At our calendar and scheduling platform, we're passionate about simplifying your life.
             Our mission is to empower individuals, businesses, and teams to manage their time efficiently.
-            Whether you're coordinating meetings, planning events, or organizing your personal schedule, we've got you covered.
+            Whether you're coordinating meetings, planning events, or organizing your personal schedule we've got you covered.
         </p>
         <div class="icons">
             <i class="fab fa-facebook"></i>
