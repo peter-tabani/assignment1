@@ -10,7 +10,7 @@
             <li><a href="feature.php">FEATURES</a></li>
             <li><a href="pricing.php">PRICING</a></li>
             <li><a href="about.php">ABOUT US</a></li>
-            <li><a href="signing.php">SIGN UP</a></li>
+            <li><a href="signing.php">SIGN-UP</a></li>
             <li><a href="product.php">PRODUCTS</a></li>
             <li><a href="contact.php">CONTACT US</a></li>
         </ul>

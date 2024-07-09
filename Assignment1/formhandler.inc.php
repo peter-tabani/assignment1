@@ -16,11 +16,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Hash the password
         $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
 
-        $query = "INSERT INTO user (username, pwd, email) VALUES (:username, :pwd, :email)";
+        $query = "INSERT INTO users (username, password, email) VALUES (:username, :pwd, :email)";
         $stmt = $pdo->prepare($query);
 
         $stmt->bindParam(":username", $username);
-        $stmt->bindParam(":pwd", $Pwd);
+        $stmt->bindParam(":pwd", $Password);
         $stmt->bindParam(":email", $email);
 
         $stmt->execute();

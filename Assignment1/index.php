@@ -117,7 +117,7 @@ if (isset($_POST['sub'])) {
     <!--<p>Lorem ipsum dolor sit amet, conscetuor adispicing elit</p>-->
     <div class="row">
         <div class="course-col">
-            <h3>Task Management</h3>
+            <h3>Tasks Management</h3>
             <p>With Calendar View, you can effortlessly create, organize, and prioritize tasks in one centralized location.</p>
         </div>
         <div class="course-col">

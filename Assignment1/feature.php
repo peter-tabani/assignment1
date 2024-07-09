@@ -35,7 +35,7 @@
     
 <script>
     // Fetch and insert the navbar
-    fetch('navbar.html')
+    fetch('navbar.php')
         .then(response => response.text())
         .then(html => {
             document.getElementById('navbar').innerHTML = html;

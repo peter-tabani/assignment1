@@ -13,7 +13,7 @@
     <!-- Introduction Section -->
     <section class="introduction">
         <h1>The Importance of Scheduling and Planning</h1>
-        <p>In our fast-paced world, scheduling and planning have become essential skills for success. Here are three key reasons why:</p>
+        <p>In our fast-paced world scheduling and planning have become essential skills for success. Here are three key reasons why:</p>
     </section>
 
     <!-- Paragraphs Section -->

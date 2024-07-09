@@ -25,7 +25,7 @@
             </div>
             <div>
                 <h3>Seal the Deal with Confidence</h3>
-                <p>Maximize your success rate with personalized reminder and follow-up strategies designed to propel your deals forward. By integrating seamlessly with your sales tools and freeing up time from logistical tasks, you can concentrate on what truly matters: sealing the deal.</p>
+                <p>Maximize your success rate with personalized reminder .</p>
             </div>
             <div>
                 <h3>Discover More Opportunities</h3>

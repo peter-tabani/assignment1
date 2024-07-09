@@ -23,9 +23,9 @@
                     <p>Using this calendar platform has transformed my scheduling process.
                     No more endless email threads or missed appointments!
                     The intuitive interface and seamless integration with my existing tools make managing my time a breeze.
-                    Highly recommended.
+                    .
                     </p>
-                    <h3>Joy Njeru</h3>
+                    <h3>Joy Njeri</h3>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
