@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt = $pdo->prepare($query);
 
         $stmt->bindParam(":username", $username);
-        $stmt->bindParam(":pwd", $Pwd);
+        $stmt->bindParam(":pwd", $Passorwd);
         $stmt->bindParam(":email", $email);
 
         $stmt->execute();

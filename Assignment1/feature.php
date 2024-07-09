@@ -25,7 +25,7 @@
             </div>
             <div class="course-col">
                 <h3>Notifications</h3>
-                <p>Never miss a deadline or appointment again with Calendar View customizable notifications and reminders. Receive timely alerts for upcoming tasks, events, and important milestones, keeping you informed and on track.</p>
+                <p>Never miss a deadline or appointment again with Calendar View, customizable notifications and reminders. Receive timely alerts for upcoming tasks, events, and important milestones, keeping you informed and on track.</p>
             </div>
         </div>
     </section>
