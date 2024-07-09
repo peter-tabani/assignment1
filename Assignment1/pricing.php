@@ -25,7 +25,7 @@
             </div>
             <div>
                 <h3>Seal the Deal with Confidence</h3>
-                <p>Maximize your success rate with personalized reminders.</p>
+                <p>Maximize your success rate with personalized reminders from us.</p>
             </div>
             <div>
                 <h3>Discover More Opportunities</h3>
