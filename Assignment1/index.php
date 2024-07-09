@@ -1,3 +1,34 @@
+<?php
+
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
+include("connection.php");
+
+if (isset($_POST['sub'])) {
+    $username = $_POST['username'];
+    $email = $_POST['email'];
+    $pwd = $_POST['password'];
+
+    $query = "SELECT * FROM user WHERE username = '$username' OR email = '$email'";
+    $dup = mysqli_query($con, $query) or die("Query failed: " . mysqli_error($con));
+
+    if (mysqli_num_rows($dup) > 0) {
+        $error = "Username and email are already taken.";
+    } else {
+        if ($pwd == $pwd) {
+            $insertQuery = "INSERT INTO user (username, email, pwd) VALUES ('$username', '$email', '$pwd')";
+            $result = mysqli_query($con, $insertQuery) or die("Query failed: " . mysqli_error($con));
+
+            echo '
+            <script type="text/javascript">
+                location.replace("index.php");
+            </script>';
+        } else {
+            $error = "Password does not match.";
+        }
+    }
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en">
