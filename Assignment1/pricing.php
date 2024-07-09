@@ -17,7 +17,7 @@
      
         <div class="row">
             <div class="course-col2">
-                <img src="images/setup.png">
+                
                 <div class="blog-right">
                     <h3>Accelerate Your Sales Cycle</h3>
                     <p>Maintain unwavering momentum in your sales journey by eliminating scheduling hurdles at every turn. With streamlined processes, you can keep your focus on nurturing relationships and closing deals.</p>
